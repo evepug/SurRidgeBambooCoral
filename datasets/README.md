@@ -1,4 +1,4 @@
-# Brief description of each dataset in the datasets folder, in alphabetical order:
+# Description and relevant references for each dataset in the datasets folder, in alphabetical order:
 
 ### 14C_surridge.csv:
 Sur Ridge Bamboo Coral radiocarbon results, including CAMS#, F14C, D14C and uncertainties
@@ -33,12 +33,14 @@ Daily sea surface temperatures at Granite Canyon, from the UCSD Scripps Institue
 ### gebco_2022_n37.4_s34.35_w-123.4_e-120.3.nc:
 The GEBCO 2022 bathymetry grid over the domain 34.35 to 37.4 N, -123.4 to -120.3 E. <br>Reference:<br>GEBCO Compilation Group (2022) GEBCO_2022 Grid (doi:10.5285/e0f0bb80-ab44-2739-e053-6c86abc0289c)
 
-### Haltuch_et_al_2013_referencechronology.csv
-California margin petrale sole otolith Delta14C results, which we used as a reference chronology to create age models for the Sur Ridge bamboo coral records. These data were generated as part of a project of the Fishery Resource Analysis and Monitoring Division, Northwest Fisheries Science Center and published by Haltuch et al, 2013. The data was obtained through personal communication with Dr. Haltuch. <br>Reference:<br>Haltuch M. A., Hamel O. S., Piner K. R., McDonald P., Kastelle C. R. and Field J. C. (2013) A California Current bomb radiocarbon reference chronology and petrale sole ( Eopsetta jordani ) age validation. Canadian Journal of Fisheries and Aquatic Sciences 70, 22–31.
+### Haltuch_et_al_2013_referencechronology.csv:
+California margin petrale sole otolith Delta14C results, which we used as a reference chronology to create age models for the Sur Ridge bamboo coral records. These data were generated as part of a project of the Fishery Resource Analysis and Monitoring Division, Northwest Fisheries Science Center and results were published by Haltuch et al, 2013. The data was obtained through personal communication with Dr. Haltuch. <br>Reference:<br>Haltuch M. A., Hamel O. S., Piner K. R., McDonald P., Kastelle C. R. and Field J. C. (2013) A California Current bomb radiocarbon reference chronology and petrale sole ( Eopsetta jordani ) age validation. Canadian Journal of Fisheries and Aquatic Sciences 70, 22–31.
 
-### hcl_fuming_test.csv
+### hcl_fuming_test.csv:
+The results from our acid fuming test. A small subset (n=6) of samples were subsampled. One subsample was left untreated, and the other was fumed with 12N HCl for 16 hours in a glass desiccator. The d13C_untreated and d13C_acidified columns show the d13C results from the untreated and acid fumed subsamples. The coral specimen ID, Sample # and estimated sample age from our age model are also provided. 
 
-### HMS_SST_corrected_1919-2020.csv
+### HMS_SST_corrected_1919-2020.csv:
+Daily sea surface temperature data at Hopkins Marine Station, which was processed and gap-filled and published by Breaker and Miller, 2023. The dataset was downloaded from https://zenodo.org/records/7041718. <br>References:<br>Miller, L. P., & Breaker, L. C. (2022). Data and code to accompany 'One hundred years of daily sea surface temperature from the Hopkins Marine Station in Pacific Grove, California: A review of the history, acquisition, and significance of the record' (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7041718<br>Breaker L. C. and Miller L. P. (2023) One Hundred Years of Daily Sea-Surface Temperature from the Hopkins Marine Station in Pacific Grove, California: A Review of the History, Acquisition, and Significance of the Record. In Oceanography and Marine Biology Taylor & Francis.
 
 ### mol_percents.csv
 
