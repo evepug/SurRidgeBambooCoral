@@ -34,7 +34,7 @@ Daily sea surface temperatures at Granite Canyon, from the UCSD Scripps Institue
 The GEBCO 2022 bathymetry grid over the domain 34.35 to 37.4 N, -123.4 to -120.3 E. <br>Reference:<br>GEBCO Compilation Group (2022) GEBCO_2022 Grid (doi:10.5285/e0f0bb80-ab44-2739-e053-6c86abc0289c)
 
 ### Haltuch_et_al_2013_referencechronology.csv
-California margin petrale sole otolith Delta14C results, which we used as a reference chronology to create an age model for our work. These data were generated as part of a project of the Fishery Resource Analysis and Monitoring Division, Northwest Fisheries Science Center and published by Haltuch et al, 2013. The data was obtained through personal communication with Dr. Haltuch. <br>Reference:<br>Haltuch M. A., Hamel O. S., Piner K. R., McDonald P., Kastelle C. R. and Field J. C. (2013) A California Current bomb radiocarbon reference chronology and petrale sole ( Eopsetta jordani ) age validation. Canadian Journal of Fisheries and Aquatic Sciences 70, 22–31.
+California margin petrale sole otolith Delta14C results, which we used as a reference chronology to create age models for the Sur Ridge bamboo coral records. These data were generated as part of a project of the Fishery Resource Analysis and Monitoring Division, Northwest Fisheries Science Center and published by Haltuch et al, 2013. The data was obtained through personal communication with Dr. Haltuch. <br>Reference:<br>Haltuch M. A., Hamel O. S., Piner K. R., McDonald P., Kastelle C. R. and Field J. C. (2013) A California Current bomb radiocarbon reference chronology and petrale sole ( Eopsetta jordani ) age validation. Canadian Journal of Fisheries and Aquatic Sciences 70, 22–31.
 
 ### hcl_fuming_test.csv
 
