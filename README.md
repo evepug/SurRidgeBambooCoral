@@ -12,5 +12,7 @@ Running 'Figs2through8andsupplemental.ipynb' in Jupyter Notebook will create a n
 
 Running 'Fig1and9_chla.ipynb.ipynb' in Jupyter Notebook will create a new folder called 'figures' in your directory (if it doesn't exist already) and generate Figures 1 and 9 from the main text as individual .pdf files. 
 
+All R code and datasets required to reproduce the MixSIAR endmember mixing analysis are located in the 'MixSIAR_mixingmodel' folder-please see the README file in that directory for further details. 
+
 For a description and references for each dataset in the 'datasets' folder, please refer to the README_data.md file in that folder.
 
