@@ -4,7 +4,9 @@ Instructions for downloading the MixSIAR package and dependencies can be found h
 
 Our endmember mixing model approach is modeled after the approach developed by Doherty et al., 2021.
 
-To reproduce our results estimating bamboo coral dietary contributions from zooplankton, phytoplankton, microbially degraded organic matter and fecal pellet endmembers, download the datasets folder and MixSIAR_bamboocoral.R file into a new directory designated for this analysis. In R or RStudio, set the working directory to your new folder that the datasets folder and .R file are saved in. Then run the MixSIAR_bamboocoral.R file. Doing so will generate all relevant output, including diagnostics, summary statistics, and plots needed to recreate the results described in our manuscript. This output will be saved in the working directory.  
+To reproduce our results estimating bamboo coral dietary contributions from zooplankton, phytoplankton, microbially degraded organic matter and fecal pellet endmembers, download the datasets folder and MixSIAR_bamboocoral.R file into a new directory designated for this analysis. In R or RStudio, set the working directory to your new folder that the datasets folder and .R file are saved in. Then run the MixSIAR_bamboocoral.R file. Doing so will generate all relevant output, including model diagnostics, summary statistics, and plots needed to recreate the results described in our manuscript. This output will be saved in the working directory.  
+
+In this repository, the output we obtained from running this code is available in the 'final results' folder. 
 
 ## MixSIAR references:
 Stock BC, Jackson AL, Ward EJ, Parnell AC, Phillips DL, Semmens BX (2018). “Analyzing mixing systems using a new generation of Bayesian tracer mixing models.” PeerJ, 6, e5096. https://doi.org/10.7717/peerj.5096.
