@@ -1,4 +1,4 @@
-# Description and relevant references for each dataset in the datasets folder, in alphabetical order:
+# Description and relevant references for each dataset file name in the datasets folder, in alphabetical order:
 
 ### 14C_surridge.csv:
 Sur Ridge Bamboo Coral radiocarbon results, including CAMS#, F14C, D14C and uncertainties
