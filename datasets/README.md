@@ -28,7 +28,7 @@ Bulk isotope results for bamboo coral specimen D621 #1B from Sur Ridge, CA. Repo
 d15N Thr-Phe and d15N Ala-Phe for 4 major organic matter endmembers. This dataset was developed by Doherty et al., 2021 and reported in their Supplementary Table 4. More details about this dataset are provided in the main text and supplementary information of Doherty et al., 2021.<br>Reference:<br> Doherty S. C., Maas A. E., Steinberg D. K., Popp B. N. and Close H. G. (2021) Distinguishing zooplankton fecal pellets as a component of the biological pump using compound-specific isotope analysis of amino acids. Limnology and Oceanography 66, 2827–2841.
 
 ### GC_SST.csv:
-Daily sea surface temperatures at Granite Canyon, from the UCSD Scripps Institue of Ocanography Shore Stations Program, as downloaded from https://library.ucsd.edu/dc/object/bb2979118z.<br>Reference:<br>Carter, Melissa L.; Flick, Reinhard E.; Terrill, Eric; Beckhaus, Elena C.; Martin, Kayla; Fey, Connie L.; Walker, Patricia W.; Largier, John L.; McGowan, John A. (2022). Shore Stations Program, Granite Canyon. In Shore Stations Program Data Archive: Current and Historical Coastal Ocean Temperature and Salinity Measurements from California Stations. UC San Diego Library Digital Collections. https://doi.org/10.6075/J0QF8SQD
+Daily sea surface temperatures at the Granite Canyon station, from the UCSD Scripps Institue of Ocanography Shore Stations Program, as downloaded from https://library.ucsd.edu/dc/object/bb2979118z.<br>Reference:<br>Carter, Melissa L.; Flick, Reinhard E.; Terrill, Eric; Beckhaus, Elena C.; Martin, Kayla; Fey, Connie L.; Walker, Patricia W.; Largier, John L.; McGowan, John A. (2022). Shore Stations Program, Granite Canyon. In Shore Stations Program Data Archive: Current and Historical Coastal Ocean Temperature and Salinity Measurements from California Stations. UC San Diego Library Digital Collections. https://doi.org/10.6075/J0QF8SQD
 
 ### gebco_2022_n37.4_s34.35_w-123.4_e-120.3.nc:
 The GEBCO 2022 bathymetry grid over the domain 34.35 to 37.4 N, -123.4 to -120.3 E. <br>Reference:<br>GEBCO Compilation Group (2022) GEBCO_2022 Grid (doi:10.5285/e0f0bb80-ab44-2739-e053-6c86abc0289c)
@@ -43,15 +43,21 @@ The results from our acid fuming test. A small subset (n=6) of samples were subs
 Daily sea surface temperature data at Hopkins Marine Station, which was processed and gap-filled and published by Breaker and Miller, 2023. The dataset was downloaded from https://zenodo.org/records/7041718. <br>References:<br>Miller, L. P., & Breaker, L. C. (2022). Data and code to accompany 'One hundred years of daily sea surface temperature from the Hopkins Marine Station in Pacific Grove, California: A review of the history, acquisition, and significance of the record' (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7041718<br>Breaker L. C. and Miller L. P. (2023) One Hundred Years of Daily Sea-Surface Temperature from the Hopkins Marine Station in Pacific Grove, California: A Review of the History, Acquisition, and Significance of the Record. In Oceanography and Marine Biology Taylor & Francis.
 
 ### mol_percents.csv
+Sur Ridge Coral amino acid molar percent abundance data, as determined from peak areas measured during GC-IRMS analysis for carbon isotopes. 
 
 ### PDO_data.csv
+The monthly Pacific Decadal Oscillation index for 1900-2018 developed by Nathan Mantua and Steve Hare, as accessed from http://research.jisao.washington.edu/pdo/PDO.latest.txt in January 2020. 
 
 ### salinas_wtryr_discharge.csv
+Mean water year discharge at USGS Site 11152500, on the Salinas River.
+<br>Reference:<br>U.S. Geological Survey, 2016, National Water Information System data available on the World Wide Web (USGS Water Data for the Nation), accessed [June 10, 2012], at URL https://waterdata.usgs.gov/nwis/annual?site_no=11152500&agency_cd=USGS&por_11152500_8712=2208145,00060,8712,1930,2023&year_type=W&referred_module=sw&format=html_table)https://waterdata.usgs.gov/nwis/annual?site_no=11152500&agency_cd=USGS&por_11152500_8712=2208145,00060,8712,1930,2023&year_type=W&referred_module=sw&format=html_table.
 
 ### shen_sedtrap_csiaa_c.csv
+Monterey Canyon (Station M2) sediment trap bulk and amino acid carbon isotope data generated and published by Shen et al., 2021. This data is available through the NOAA NCEI paleoclimate database (https://ncei.noaa.gov/access/paleo-search/study/37138).<br>Reference:<br>Shen Y., Guilderson T. P., Sherwood O. A., Castro C. G., Chavez F. P. and McCarthy M. D. (2021) Amino acid δ13C and δ15N patterns from sediment trap time series and deep-sea corals: Implications for biogeochemical and ecological reconstructions in paleoarchives. Geochimica et Cosmochimica Acta 297, 288–307.
 
 ### shen_sedtrap_csiaa_n.csv
+Monterey Canyon (Station M2) sediment trap bulk and amino acid nitrogen isotope data generated and published by Shen et al., 2021. This data is available through the NOAA NCEI paleoclimate database (https://ncei.noaa.gov/access/paleo-search/study/37138).<br>Reference:<br>Shen Y., Guilderson T. P., Sherwood O. A., Castro C. G., Chavez F. P. and McCarthy M. D. (2021) Amino acid δ13C and δ15N patterns from sediment trap time series and deep-sea corals: Implications for biogeochemical and ecological reconstructions in paleoarchives. Geochimica et Cosmochimica Acta 297, 288–307.
 
 ### shen_sedtrap_mean_molperc.csv
-
+Mean and standard deviation of estimated molar percent abundances of individual amino acids in Monterey Canyon sediment trap samples, as determined from peak areas measured during GC-IRMS analysis for nitrogen isotopes.<br>Reference:<br>Shen Y., Guilderson T. P., Sherwood O. A., Castro C. G., Chavez F. P. and McCarthy M. D. (2021) Amino acid δ13C and δ15N patterns from sediment trap time series and deep-sea corals: Implications for biogeochemical and ecological reconstructions in paleoarchives. Geochimica et Cosmochimica Acta 297, 288–307.
 
