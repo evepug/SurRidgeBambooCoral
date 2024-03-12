@@ -2,10 +2,10 @@
 library(MixSIAR)
 #.libPaths()
 
-# create output directory if doesn't exist already
-if (!dir.exists("output")){dir.create("output")}
-
-# Load mix data
+# Load bamboo coral consumer data
+# in this case the two variables of interest
+# are d15N of Ala - d15N of Phe (aka d15N_alaphe)
+# and d15N of Thr - d15N of Phe (aka d15N_thrphe)
 mix <- load_mix_data(filename="datasets/surridge_bamboocoral_consumer.csv",
                      iso_names=c("d15N_alaphe","d15N_thrphe"),
                      factors=NULL,
@@ -13,7 +13,7 @@ mix <- load_mix_data(filename="datasets/surridge_bamboocoral_consumer.csv",
                      fac_nested=NULL,
                      cont_effects=NULL)
 
-# Load source data
+# Load source data (Doherty et al., 2021 endmember dataset)
 source <- load_source_data(filename="datasets/Doherty_source_endmembers.csv",
                            source_factors=NULL,
                            conc_dep=FALSE,
@@ -21,10 +21,14 @@ source <- load_source_data(filename="datasets/Doherty_source_endmembers.csv",
                            mix)
 
 # Load discrimination/TDF data
+# This accounts for offsets between coral skeleton and diet and 
+# associated uncertainties.
+# See SupplementarY Table S1 for justifications of each discrimination value and
+# error propagation
 discr <- load_discr_data(filename="datasets/bamboocoral_discrimination.csv", mix)
 
 # Make isospace plot
-plot_data(filename="output/isospace_plot",
+plot_data(filename="isospace_plot",
           plot_save_pdf=TRUE,
           plot_save_png=FALSE,
           mix,source,discr)
@@ -33,35 +37,39 @@ plot_data(filename="output/isospace_plot",
 if(mix$n.iso==2) calc_area(source=source,mix=mix,discr=discr)
 
 # Plot your prior
-plot_prior(alpha.prior=1,source,filename="output/prior_plot")
+plot_prior(alpha.prior=1,source,filename="prior_plot")
 
 # Define model structure and write JAGS model file
-model_filename <- "output/MixSIAR_model.txt"
+# Here we are selecting the Residual*Process error option
+model_filename <- "MixSIAR_model.txt"
 resid_err <- TRUE
 process_err <- TRUE
 write_JAGS_model(model_filename, resid_err, process_err, mix, source)
 
-# Run the JAGS model ("test" first, then "normal")
+# Run the JAGS model (options include: "test","normal","long","very long", "extreme")
+# "very long" was needed to reach convergence for this dataset
+# But it takes ~5 hours to run. For more reasonable runtime can use "normal" and 
+# get similar results (except diagnostics suggest the model doesn't converge)
+
 jags.1 <- run_model(run="very long", mix, source, discr, model_filename, alpha.prior=1)
-#jags.1 <- run_model(run="normal", mix, source, discr, model_filename,alpha.prior=1)
 
 # decide what output to output
 output_options <- list(summary_save = TRUE,                 
-                       summary_name = "output/summary_statistics", 
+                       summary_name = "summary_statistics", 
                        sup_post = FALSE,                    
                        plot_post_save_pdf = FALSE,           
-                       plot_post_name = "output/posterior_density",
+                       plot_post_name = "posterior_density",
                        sup_pairs = TRUE,             
                        plot_pairs_save_pdf = TRUE,    
-                       plot_pairs_name = "output/pairs_plot",
+                       plot_pairs_name = "pairs_plot",
                        sup_xy = TRUE,           
                        plot_xy_save_pdf = TRUE,
-                       plot_xy_name = "output/xy_plot",
+                       plot_xy_name = "xy_plot",
                        gelman = TRUE,
                        heidel = FALSE,  
                        geweke = TRUE,   
                        diag_save = TRUE,
-                       diag_name = "output/diagnostics",
+                       diag_name = "diagnostics",
                        indiv_effect = TRUE,       
                        plot_post_save_png = FALSE, 
                        plot_pairs_save_png = FALSE,
@@ -71,9 +79,3 @@ output_options <- list(summary_save = TRUE,
 
 # Process diagnostics, summary stats, and posterior plots
 output_JAGS(jags.1, mix, source)
-
-library(R2jags)
-attach.jags(jags.1)
-mean(p.global[,1])
-
-View(jags.1$BUGSoutput$sims.list$p.ind)
