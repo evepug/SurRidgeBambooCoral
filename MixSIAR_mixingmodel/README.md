@@ -2,7 +2,7 @@ All R code and datasets required to reproduce our endmember mixing model analysi
 
 Instructions for downloading the MixSIAR package and dependencies can be found here: https://cran.r-project.org/web/packages/MixSIAR/readme/README.html
 
-Our endmember mixing model approach is modeled after the approach developed by Doherty et al., 2021.
+Our endmember mixing model approach is modeled after the approach developed by Doherty et al., 2021. The code to perform this analysis was modeled after worked examples provided in the MixSIAR User Manual and distributed with the MixSIAR package (Stock and Semmens, 2016). 
 
 To reproduce our results estimating bamboo coral dietary contributions from zooplankton, phytoplankton, microbially degraded organic matter and fecal pellet endmembers, download the datasets folder and MixSIAR_bamboocoral.R file into a new directory designated for this analysis. In R or RStudio, set the working directory to your new folder that the datasets folder and .R file are saved in. Then run the MixSIAR_bamboocoral.R file. Doing so will generate all relevant output, including model diagnostics, summary statistics, and plots needed to recreate the results described in our manuscript. This output will be saved in the working directory.  
 
