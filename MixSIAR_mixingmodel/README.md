@@ -15,7 +15,7 @@ Stock BC, Semmens BX (2016). “MixSIAR GUI User Manual.” doi:10.5281/zenodo.1
 ## information about the files in the 'datasets' folder: 
 
 ### bamboocoral_discrimination.csv: 
-This file with discrimination factors allow MixSIAR to correct for offsets between bamboo coral diet and skeleton, and account for uncertainties in these discrimination factors. See supplementary Table S1 of our manuscript for a description of how these discrimination values were determined. 
+This file with discrimination factors allows MixSIAR to correct for offsets between bamboo coral diet and skeleton, and account for uncertainties in these discrimination factors. See supplementary Table S1 of our manuscript for a description of how these discrimination values were determined. 
 <br>References:<br>
 McMahon, K. W., and M. D. McCarthy. 2016. Embracing variability in amino acid δ 15 N fractionation: mechanisms, implications, and applications for trophic ecology. Ecosphere 7: e01511. doi:10.1002/ecs2.1511
 <br>
