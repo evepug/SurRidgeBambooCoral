@@ -1,5 +1,7 @@
 # Description and relevant references for each dataset file name in the datasets folder, in alphabetical order:
 
+### Please refer to relevant references and 
+
 ### 14C_surridge.csv:
 Sur Ridge Bamboo Coral radiocarbon results, including CAMS#, F14C, D14C and uncertainties
 
@@ -10,7 +12,7 @@ Table with the number of carbon and nitrogen atoms in one molecule of each amino
 Monthly values of the Biologically Effective Upwelling Transport Index from 1988-2023, as downloaded from: https://mjacox.com/upwelling-indices/. <br>Reference:<br>Jacox, M. G., Edwards, C. A., Hazen, E. L, and Bograd, S. J. (2018). Coastal upwelling revisited: Ekman, Bakun, and improved upwelling indices for the U.S. west coast, Journal of Geophysical Research, 123(10), 7332-7350, doi:10.1029/2018JC014187.
 
 ### cmems_obs-oc_glo_bgc-plankton_my_l4-multi-4km_P1M_1681345152384.nc: 
-Satellite chlorophyll-a data spanning January 1998-March 2023. <br>Reference:<br>Global Ocean Colour (Copernicus-GlobColour), Bio-Geo-Chemical, L4 (monthly and interpolated) from Satellite Observations (1997-ongoing). E.U. Copernicus Marine Service Information (CMEMS). Marine Data Store (MDS). 10.48670/moi-00281.
+Satellite chlorophyll-a data spanning January 1998-March 2023 from th Copernicus CMEMS Ocean Colour Data Product. <br>Reference:<br>Global Ocean Colour (Copernicus-GlobColour), Bio-Geo-Chemical, L4 (monthly and interpolated) from Satellite Observations (1997-ongoing). E.U. Copernicus Marine Service Information (CMEMS). Marine Data Store (MDS). 10.48670/moi-00281.
 
 ### csiaa_c.csv:
 Sur Ridge bamboo coral carbon isotopes of amino acids results. Mean and standard deviation d13C values from triplicate GC-IRMS analyses of each sample for each amino acid are reported.  
