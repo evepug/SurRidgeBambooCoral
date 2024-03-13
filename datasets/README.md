@@ -2,7 +2,7 @@
 
 ### Please refer to relevant references and the original data sources for more information about the supporting datasets
 
-## New results from this work (also available at https://www.ncei.noaa.gov/access/paleo-search/study/38859): 
+## New data generated from this work (also available at https://www.ncei.noaa.gov/access/paleo-search/study/38859): 
 
 ### 14C_surridge.csv:
 Sur Ridge Bamboo Coral radiocarbon results, including CAMS#, F14C, D14C and uncertainties
@@ -25,7 +25,7 @@ Sur Ridge Coral amino acid molar percent abundance data, as determined from peak
 ### hcl_fuming_test.csv:
 The results from our acid fuming test to check for carbonates in our bamboo coral gorgonin samples. A small subset (n=6) of samples were subsampled. One subsample was left untreated, and the other was fumed with 12N HCl for 16 hours in a glass desiccator. The d13C_untreated and d13C_acidified columns show the d13C results from the untreated and acid fumed subsamples. The coral specimen ID, Sample # and estimated sample age from our age model are also provided. 
 
-## Supporting datasets:
+## Supporting datasets used in our data analysis:
 
 ### aa_atomic_CN_counts.csv: 
 Table with the number of carbon and nitrogen atoms in one molecule of each amino acid (used for atomic THAA calculations). 
@@ -38,6 +38,9 @@ Monterey Canyon (Station M2) sediment trap bulk and amino acid nitrogen isotope 
 
 ### shen_sedtrap_mean_molperc.csv
 Mean and standard deviation of estimated molar percent abundances of individual amino acids in Monterey Canyon sediment trap samples, as determined from peak areas measured during GC-IRMS analysis for nitrogen isotopes.<br>Reference:<br>Shen Y., Guilderson T. P., Sherwood O. A., Castro C. G., Chavez F. P. and McCarthy M. D. (2021) Amino acid δ13C and δ15N patterns from sediment trap time series and deep-sea corals: Implications for biogeochemical and ecological reconstructions in paleoarchives. Geochimica et Cosmochimica Acta 297, 288–307.
+
+### Haltuch_et_al_2013_referencechronology.csv:
+California margin petrale sole otolith Delta14C results, which we used as a reference chronology to create age models for the Sur Ridge bamboo coral records. These data were generated as part of a project of the Fishery Resource Analysis and Monitoring Division, Northwest Fisheries Science Center and results were published by Haltuch et al, 2013. The data was obtained through personal communication with Dr. Haltuch. <br>Reference:<br>Haltuch M. A., Hamel O. S., Piner K. R., McDonald P., Kastelle C. R. and Field J. C. (2013) A California Current bomb radiocarbon reference chronology and petrale sole ( Eopsetta jordani ) age validation. Canadian Journal of Fisheries and Aquatic Sciences 70, 22–31.
 
 ### BEUTI_monthly.csv: 
 Monthly values of the Biologically Effective Upwelling Transport Index from 1988-2023, as downloaded from: https://mjacox.com/upwelling-indices/. <br>Reference:<br>Jacox, M. G., Edwards, C. A., Hazen, E. L, and Bograd, S. J. (2018). Coastal upwelling revisited: Ekman, Bakun, and improved upwelling indices for the U.S. west coast, Journal of Geophysical Research, 123(10), 7332-7350, doi:10.1029/2018JC014187.
@@ -53,9 +56,6 @@ Daily sea surface temperatures at the Granite Canyon station, from the UCSD Scri
 
 ### gebco_2022_n37.4_s34.35_w-123.4_e-120.3.nc:
 The GEBCO 2022 bathymetry grid over the domain 34.35 to 37.4 N, -123.4 to -120.3 E. <br>Reference:<br>GEBCO Compilation Group (2022) GEBCO_2022 Grid (doi:10.5285/e0f0bb80-ab44-2739-e053-6c86abc0289c)
-
-### Haltuch_et_al_2013_referencechronology.csv:
-California margin petrale sole otolith Delta14C results, which we used as a reference chronology to create age models for the Sur Ridge bamboo coral records. These data were generated as part of a project of the Fishery Resource Analysis and Monitoring Division, Northwest Fisheries Science Center and results were published by Haltuch et al, 2013. The data was obtained through personal communication with Dr. Haltuch. <br>Reference:<br>Haltuch M. A., Hamel O. S., Piner K. R., McDonald P., Kastelle C. R. and Field J. C. (2013) A California Current bomb radiocarbon reference chronology and petrale sole ( Eopsetta jordani ) age validation. Canadian Journal of Fisheries and Aquatic Sciences 70, 22–31.
 
 ### HMS_SST_corrected_1919-2020.csv:
 Daily sea surface temperature data at Hopkins Marine Station, which was processed, gap-filled and published by Breaker and Miller, 2023. The dataset was downloaded from https://zenodo.org/records/7041718. <br>References:<br>Miller, L. P., & Breaker, L. C. (2022). Data and code to accompany 'One hundred years of daily sea surface temperature from the Hopkins Marine Station in Pacific Grove, California: A review of the history, acquisition, and significance of the record' (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7041718<br>Breaker L. C. and Miller L. P. (2023) One Hundred Years of Daily Sea-Surface Temperature from the Hopkins Marine Station in Pacific Grove, California: A Review of the History, Acquisition, and Significance of the Record. In Oceanography and Marine Biology Taylor & Francis.
