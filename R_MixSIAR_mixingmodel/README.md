@@ -4,11 +4,11 @@ Instructions for downloading the MixSIAR package and dependencies can be found h
 
 Our endmember mixing model approach is modeled after the approach developed by Doherty et al., 2021. The code to perform this analysis was modeled after worked examples provided in the MixSIAR User Manual and distributed with the MixSIAR package (Stock and Semmens, 2016). 
 
-As discussed in the manuscript main text, we have included two versions of this analysis, which are separated into two folders: 'all_endmembers' and 'three_endmembers'. 
+As discussed in the manuscript main text, we have included two versions of this analysis (4 endmembers and 3 endmembers), which are separated into two folders: 'all_endmembers' and 'three_endmembers'. 
 
-To reproduce our results estimating bamboo coral dietary contributions from zooplankton, phytoplankton, microbially degraded organic matter and fecal pellet endmembers, download the datasets subfolder and MixSIAR_bamboocoral.R file from either the 'all_endmembers' or 'three_endmembers' folder into a new directory designated for this analysis. In R or RStudio, set the working directory to your new folder that the datasets folder and .R file are saved in. Then run the MixSIAR_bamboocoral.R file. Doing so will generate all relevant output, including model diagnostics, summary statistics, and plots needed to recreate the results described in our manuscript. This output will be saved in the working directory.  
+To reproduce our results, download the datasets subfolder and MixSIAR_bamboocoral.R file from either the 'all_endmembers' or 'three_endmembers' folder into a new directory designated for this analysis. In R or RStudio, set the working directory to your new folder that the datasets folder and .R file are saved in. Then run the MixSIAR_bamboocoral.R file. Doing so will generate all relevant output, including model diagnostics, summary statistics, and plots needed to recreate the results described in our manuscript. This output will be saved in the working directory.  
 
-In this repository, the output we obtained from running this code is available in the 'final results' folder. 
+In this repository, the output we obtained for both the three and four endmember mixing model scenarios is available in the 'final results' subfolder of the 'all_endmembers' and 'three_endmembers' folders. 
 
 ## MixSIAR references:
 Stock BC, Jackson AL, Ward EJ, Parnell AC, Phillips DL, Semmens BX (2018). “Analyzing mixing systems using a new generation of Bayesian tracer mixing models.” PeerJ, 6, e5096. https://doi.org/10.7717/peerj.5096.
