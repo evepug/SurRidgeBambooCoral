@@ -1,0 +1,73 @@
+﻿Source,d15N_alaphe,d15N_thrphe,reference,location
+MD,8.6,-6.1,"Yamaguchi & McCarthy, 2018",NPSG
+MD,8.4,-5.5,"Yamaguchi & McCarthy, 2018",NPSG
+MD,10.2,-2,"Yamaguchi & McCarthy, 2018",NPSG
+MD,13.9,-1.3,"Yamaguchi & McCarthy, 2018",NPSG
+zooplankton,12.7,-7.2,"Hannides et al., 2020",ALOHA
+zooplankton,14,-9.3,"Hannides et al., 2020",ALOHA
+zooplankton,16.5,-8.7,"Hannides et al., 2020",ALOHA
+zooplankton,18.1,-10.9,"Hannides et al., 2020",ALOHA
+zooplankton,17.9,-11,"Hannides et al., 2009",ALOHA
+zooplankton,19,-8.6,"Hannides et al., 2009",ALOHA
+zooplankton,20.1,-7.9,"Hannides et al., 2009",ALOHA
+zooplankton,18.7,-10,"Hannides et al., 2009",ALOHA
+zooplankton,14.6,-7.4,"Hannides et al., 2009",ALOHA
+zooplankton,14.1,-6.8,"Hannides et al., 2009",ALOHA
+zooplankton,14,-7.6,"Hannides et al., 2009",ALOHA
+zooplankton,14.4,-9.8,"Hannides et al., 2009",ALOHA
+zooplankton,15.8,-8.2,"Hannides et al., 2009",ALOHA
+zooplankton,12.9,-12.1,"Hannides et al., 2009",ALOHA
+zooplankton,15.1,-9.4,"Hannides et al., 2009",ALOHA
+zooplankton,16.5,-13.6,"Hannides et al., 2009",ALOHA
+zooplankton,14.6,-8,"Hannides et al., 2009",ALOHA
+zooplankton,14.3,-10,"Hannides et al., 2009",ALOHA
+zooplankton,17.3,-9.4,"Hannides et al., 2009",ALOHA
+zooplankton,15.7,-11.3,"Hannides et al., 2009",ALOHA
+zooplankton,15.5,-10,"Hannides et al., 2009",ALOHA
+zooplankton,16.8,-8.6,"Hannides et al., 2009",ALOHA
+zooplankton,11.55,-7.03,"Hannides et al., 2013",ALOHA
+zooplankton,14.33,-7.24,"Hannides et al., 2013",ALOHA
+zooplankton,13.91,-8.41,"Hannides et al., 2013",ALOHA
+zooplankton,16.03,-11.1,"Hannides et al., 2013",ALOHA
+zooplankton,10.25,-9.02,"Hannides et al., 2013",ALOHA
+zooplankton,13.25,-8.95,"Hannides et al., 2013",ALOHA
+zooplankton,14.85,-9.1,"Hannides et al., 2013",ALOHA
+zooplankton,11.4,-2.8,"Mclelland & Montoya, 2003",Tropical NA
+zooplankton,10.9,-0.9,"Mclelland & Montoya, 2003",Tropical NA
+zooplankton,11.2,-4.4,"Mclelland & Montoya, 2003",Tropical NA
+zooplankton,11.2,-7.2,"Mclelland & Montoya, 2003",Tropical NA
+zooplankton,10.7,-4.6,"Mclelland & Montoya, 2003",Tropical NA
+zooplankton,18.8,-5.4,"Romero-Romero et al., 2020",EP
+zooplankton,17.5,-10.3,"Romero-Romero et al., 2020",EP
+zooplankton,19.3,-10.4,"Romero-Romero et al., 2020",EP
+zooplankton,19.6,-4.5,"Romero-Romero et al., 2020",EP
+zooplankton,16.8,-3.5,"Romero-Romero et al., 2020",EP
+zooplankton,11.1,-2.4,"Romero-Romero et al., 2020",EP
+zooplankton,19.8,-14.8,"Romero-Romero et al., 2020",EP
+zooplankton,19.3,-11.8,"Romero-Romero et al., 2020",EP
+zooplankton,11.3,-13.1,"Doherty et al., 2021",SO
+zooplankton,15.3,-15.8,"Doherty et al., 2021",NEP
+zooplankton,12.9,-9.9,"Doherty et al., 2021",NEP
+zooplankton,12.3,-9.1,"Doherty et al., 2021",Sargasso
+zooplankton,12.5,-12.2,"Doherty et al., 2021",Sargasso
+zooplankton,14,-12.7,"Doherty et al., 2021",Sargasso
+zooplankton,12.1,-15.4,"Doherty et al., 2021",Sargasso
+fecal pellets,9.1,-5.9,"Doherty et al., 2021",SO
+fecal pellets,11.5,-11.2,"Doherty et al., 2021",NEP
+fecal pellets,1.3,-6.8,"Doherty et al., 2021",NEP
+fecal pellets,3.6,-10.5,"Doherty et al., 2021",Sargasso
+fecal pellets,9.9,-8,"Doherty et al., 2021",Sargasso
+fecal pellets,7.8,-12.1,"Doherty et al., 2021",Sargasso
+fecal pellets,10.7,-16.7,"Doherty et al., 2021",Sargasso
+phytoplankton,3.7,1,"McCarthy et al., 2013",culture
+phytoplankton,6.42,-0.2,"McCarthy et al., 2013",culture
+phytoplankton,2.88,1.4,"McCarthy et al., 2013",culture
+phytoplankton,-2.05,-0.2,"McCarthy et al., 2013",culture
+phytoplankton,-0.49,-1.3,"McCarthy et al., 2013",culture
+phytoplankton,1.89,6.3,"McCarthy et al., 2013",culture
+phytoplankton,-3.51,-4.5,"McCarthy et al., 2013",culture
+phytoplankton,-2.26,1.7,"McCarthy et al., 2013",culture
+phytoplankton,-2.15,2.1,"McCarthy et al., 2013",culture
+phytoplankton,3.57,4.4,"McCarthy et al., 2013",culture
+phytoplankton,7.66,5.3,"McCarthy et al., 2013",culture
+phytoplankton,0.4,3,"McClelland & Montoya, 2003",culture
