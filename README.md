@@ -6,7 +6,7 @@ This repository contains all datasets and code required to perform the main data
 
 For detailed metadata of the new bamboo-coral carbon and nitrogen stable isotope datasets generated for this work, please refer to our entry in the NCEI paleoclimatology database: https://www.ncei.noaa.gov/access/paleo-search/study/38859. 
 
-For more information and corresponding references for supporting datasets used in this work, please refer to the README files in the 'datasets' and 'MixSIAR_mixingmodel' folders. 
+For more information and corresponding references for supporting datasets used in this work, please refer to the README files in the 'datasets' and 'R_MixSIAR_mixingmodel' folders. 
 
 To run the code and generate all figures from the manuscript, create a new directory in the desired location on your PC, and download the 'Figs2through8andsupplemental.ipynb' and 'chla_maps_analysis.ipynb' Jupyter Notebook files into this new directory. Then download the 'datasets' folder into your new directory. 
 
@@ -14,5 +14,5 @@ Running 'Figs2through8andsupplemental.ipynb' in Jupyter Notebook will create a n
 
 Running 'Fig1and9_chla.ipynb.ipynb' in Jupyter Notebook will create a new folder called 'figures' in your directory (if it doesn't exist already) and generate Figures 1 and 9 from the main text as individual .pdf files. 
 
-All R code and datasets required to reproduce the MixSIAR endmember mixing analysis are located in the 'MixSIAR_mixingmodel' folder-please see the README file in that directory for further details. 
+All R code and datasets required to reproduce the MixSIAR endmember mixing analysis are located in the 'R_MixSIAR_mixingmodel' folder-please see the README file in that directory for further details. 
 
